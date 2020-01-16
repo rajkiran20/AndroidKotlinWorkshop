@@ -20,7 +20,3 @@ class CountdownService : Service(), CompletionCallback {
         startActivity(intent)
     }
 }
-
-interface CompletionCallback {
-    fun onFinish()
-}
