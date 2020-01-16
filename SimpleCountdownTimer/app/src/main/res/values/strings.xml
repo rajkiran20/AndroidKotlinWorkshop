@@ -3,4 +3,5 @@
     <string name="enter_countdown_timer_in_seconds">Enter countdown timer in seconds</string>
     <string name="start">Start</string>
     <string name="timer_finished">Timer finished</string>
+    <string name="start_camera">Start camera</string>
 </resources>

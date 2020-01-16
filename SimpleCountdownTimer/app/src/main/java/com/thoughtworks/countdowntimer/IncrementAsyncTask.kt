@@ -28,5 +28,6 @@ class IncrementAsyncTask(
     override fun onPostExecute(result: String?) {
         super.onPostExecute(result)
         Toast.makeText(context, result, Toast.LENGTH_SHORT).show()
+        (context as CompletionActivity).showButton()
     }
 }
