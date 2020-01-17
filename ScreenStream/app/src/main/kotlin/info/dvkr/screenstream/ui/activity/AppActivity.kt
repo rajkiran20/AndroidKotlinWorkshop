@@ -59,6 +59,12 @@ class AppActivity : PermissionActivity() {
             }
         }
 
+        fab_activity_app_start_stop.setOnLongClickListener(object : View.OnLongClickListener {
+            override fun onLongClick(v: View?): Boolean {
+                startActivity(Intent(this@AppActivity, PiPCameraActivity::class.java))
+                return false
+            }
+        })
         routeIntentAction(intent)
     }
 

@@ -101,6 +101,8 @@ dependencies {
     implementation("com.github.iamironz:binaryprefs:$binaryprefs")
     implementation("com.elvishew:xlog:$xlog")
 
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
     fabricImplementation("com.google.android.play:core:1.6.4")
     fabricReleaseImplementation("com.google.firebase:firebase-analytics:17.2.1")
     fabricReleaseImplementation("com.crashlytics.sdk.android:crashlytics:2.10.1@aar") {
